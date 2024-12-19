@@ -24,8 +24,6 @@ public class BussinesPais {
         dtoPais.setIdPais(UUID.randomUUID().toString());
         dtoPais.setCreatedAt(new Date());
 
-
-
         Tpais tPais = new Tpais();
 
         tPais.setIdPais(dtoPais.getIdPais());
